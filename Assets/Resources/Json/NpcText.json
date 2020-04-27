@@ -1,0 +1,31 @@
+{
+  "test_text_1": {
+    "text": "Jack Frost\nHee-how are you?",
+    "type": "Basic",
+    "next": "test_text_2"
+  },
+  "test_text_2": {
+    "text": "Jack Frost\nHee-ho",
+    "type": "Basic",
+    "next": "test_text_3"
+  },
+  "test_text_3": {
+    "text": "Jack Frost\nYes or no?",
+    "type": "Choice",
+    "count": 2,
+    "r_1": "Yes",
+    "r_2": "No",
+    "a_1": "test_text_5",
+    "a_2": "test_text_4"
+  },
+  "test_text_4": {
+    "text": "Jack Frost\nI don't like that attitude! Heeconsider ho!",
+    "type": "Basic",
+    "next": "test_text_3"
+  },
+  "test_text_5": {
+    "text": "Jack Frost\nHee-ho",
+    "type": "Basic",
+    "next": ""
+  }
+}
